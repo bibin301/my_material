@@ -1,0 +1,27 @@
+<div class="container col-md-12">
+    <div class="col-md-6">
+        <select type="text" chosen persistent-create-option="true" ng-model="umListModel.usrRes.homeLoc" class="form-control form-border" name="hLoc">
+              <option value="">--select home location--</option>
+              <option value="">--select home location--</option>
+              <option value="">--select home location--</option>
+  </select>
+    </div>
+
+    <div class="col-md-6">
+        <md-button class="md-warn md-raised md-hue-2" ng-click="showToast1()">Show Simple Alert</md-button>
+    </div>
+
+
+
+    <div class="col-md-6">
+        <h3>Date picker </h3>
+        <md-datepicker ng-model="myDate" md-placeholder="Enter date"></md-datepicker>
+    </div>
+    <!-- sto  model-->
+    <div class="col-md-6">
+      <md-button class="md-primary md-raised" ng-click="showConfirm($event)" flex="100"  flex-gt-md="auto">
+              model
+           </md-button>
+    </div>
+    <!-- eno model -->
+</div>
